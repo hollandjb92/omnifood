@@ -1,0 +1,138 @@
+
+/* Smallest phones */
+@media only screen and (max-width: 480px) {
+
+  section {padding: 25px 0;}
+  .contactForm {width: 100%;}
+
+}
+
+
+/* small phones and small ipads/tablets 481-767 */
+@media only screen and (max-width: 767px) {
+  body {font-size: 16px;}
+  section {padding: 30px;}
+  .row, .hero-text-box {padding: 0 4%;}
+  .col {width: 100%;}
+
+
+
+.mobileNavIcon {
+  display: inline-block;
+}
+
+.main-nav {
+  display: none;
+  float: left;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.main-nav li {
+  display: block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  display: block;
+  border: 0;
+  padding: 10px 0;
+  font-size: 100%;
+}
+
+.sticky .main-nav { margin-top: 10px;}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 10px 0;
+}
+
+.mobileNavIcon {margin-top: 10px; padding-bottom: 5px;}
+.mobileNavIcon i {
+  color: #555;
+}
+
+  h1 {font-size: 180%;}
+  h2 {font-size: 150%;}
+
+  .long-copyright {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .worksteps {margin-bottom: 20px;}
+  .worksteps:last-of-type {margin-bottom: 20px;}
+
+  .worksteps div {
+    height: 45px;
+    width: 45px;
+    padding: 4px;
+    margin-right: 15px;
+    font-size: 120%;
+  }
+
+  .step-boxes:first-child {
+    text-align: center;
+  }
+
+  .cities .box h3, .city-facts, .cities img {text-align: center;}
+
+}
+
+/* small ipads.tablets to big tablets/ipads 768-1023*/
+@media only screen and (max-width: 1023px) {
+    body {font-size: 18px;}
+
+    section {padding: 60px 0;}
+
+    .long-copyright {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    .step-boxes:last-child {margin-top: 10px;}
+    .step-boxes {margin-top: 10px;}
+    .worksteps {margin-bottom: 40px;}
+    .worksteps:last-of-type {margin-bottom: 60px;}
+
+    .iphoneimg {width: 50%;}
+
+    .city-icons {
+    width: 15px;
+    margin-right: 5px;
+  }
+    .city-facts {font-size: 90%;}
+
+    .planBox {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .planPrice {
+      font-size: 250%;
+    }
+
+    .contactForm {
+      width: 80%;
+    }
+
+
+}
+
+/* Big tablet/ipads to 1200px (smaller than defined row of 1140)*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main-nav {
+    display: block !important
+  }
+}
